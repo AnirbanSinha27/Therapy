@@ -50,7 +50,7 @@ export default function Contact() {
                   id="name"
                   type="text"
                   {...register('name', { required: 'Name is required' })}
-                  className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
+                  className={`w-full px-4 py-3 border rounded-lg text-black focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
                     errors.name ? 'border-red-500' : 'border-[#7e7e6b]'
                   }`}
                 />
@@ -81,7 +81,7 @@ export default function Contact() {
                       message: 'Please enter a valid phone number',
                     },
                   })}
-                  className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
+                  className={`w-full px-4 py-3 border rounded-lg text-black focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
                     errors.phone ? 'border-red-500' : 'border-[#7e7e6b]'
                   }`}
                 />
@@ -112,7 +112,7 @@ export default function Contact() {
                       message: 'Please enter a valid email address',
                     },
                   })}
-                  className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
+                  className={`w-full px-4 py-3 border rounded-lg text-black focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
                     errors.email ? 'border-red-500' : 'border-[#7e7e6b]'
                   }`}
                 />
@@ -137,7 +137,7 @@ export default function Contact() {
                   id="message"
                   rows={4}
                   {...register('message', { required: 'This field is required' })}
-                  className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
+                  className={`w-full px-4 py-3 border rounded-lg text-black focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
                     errors.message ? 'border-red-500' : 'border-[#7e7e6b]'
                   }`}
                 />
@@ -162,7 +162,7 @@ export default function Contact() {
                   id="preferredTime"
                   type="text"
                   {...register('preferredTime', { required: 'This field is required' })}
-                  className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
+                  className={`w-full px-4 py-3 border rounded-lg text-black focus:ring-2 focus:ring-[#94b0b0] focus:border-[#94b0b0] outline-none transition ${
                     errors.preferredTime ? 'border-red-500' : 'border-[#7e7e6b]'
                   }`}
                   placeholder="e.g. Weekdays after 5pm"
