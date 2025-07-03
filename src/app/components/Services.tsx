@@ -12,7 +12,7 @@ export default function Services() {
     {
       title: "Relationship Counseling",
       description: "Improve communication, resolve conflicts, and deepen connections in your relationships. Whether couples or individuals, we provide tools for healthier, more fulfilling interpersonal dynamics.",
-      image: "/Relationship.png"
+      image: "/relationship.png"
     },
     {
       title: "Trauma Recovery",
