@@ -24,7 +24,7 @@ export default function About() {
               </p>
               
               <p>
-                Specializing in evidence-based therapies, Dr. Blake artfully blends cognitive-behavioral techniques with mindfulness practices. Her approach is tailored to each individual, whether they're navigating anxiety, relationship challenges, or healing from trauma.
+                Specializing in evidence-based therapies, Dr. Blake artfully blends cognitive-behavioral techniques with mindfulness practices. Her approach is tailored to each individual, whether they&apos;re navigating anxiety, relationship challenges, or healing from trauma.
               </p>
               
               <p>
